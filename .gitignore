@@ -1,0 +1,60 @@
+# ---------- MATLAB ----------
+*.asv
+*.m~
+*.autosave
+*.slxc
+*.mex*
+slprj/
+sccprj/
+codegen/
+resources/project/
+
+# ---------- Python (si se usa para pruebas o servidor) ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---------- Firmware: Arduino / PlatformIO / ESP-IDF / AVR ----------
+.pio/
+build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+sdkconfig.old
+
+# ---------- KiCad (PCB) ----------
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+
+# ---------- Credenciales (NO subir) ----------
+.env
+secrets.h
+credentials.json
+*.pem
+*.key
+
+# ---------- Datos pesados / capturas de la boya ----------
+capturas/
+*.mp4
+*.mov
+*.avi
+
+# ---------- Sistema operativo ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ---------- Editores ----------
+.vscode/
+.idea/
+*.swp
