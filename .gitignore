@@ -58,3 +58,53 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# ===== Vivado: carpetas generadas =====
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.gen/
+*.ip_user_files/
+*.Xil/
+.Xil/
+NA/
+
+# ===== Vivado: archivos temporales y logs =====
+*.jou
+*.log
+*.str
+*.backup.*
+vivado*.backup.jou
+vivado*.backup.log
+vivado_pid*.str
+webtalk*
+*.wdb
+*.pb
+*.dcp
+usage_statistics_webtalk.*
+hs_err_pid*.log
+
+# ===== IPs: guardar solo el .xci, ignorar lo que genera =====
+*.srcs/**/ip/**/*
+!*.srcs/**/ip/**/
+!*.srcs/**/ip/**/*.xci
+!*.srcs/**/ip/**/*.coe
+
+# ===== Block designs: guardar solo el .bd =====
+*.srcs/**/bd/**/*
+!*.srcs/**/bd/**/
+!*.srcs/**/bd/**/*.bd
+
+# ===== Vitis / SDK =====
+*.sdk/
+.metadata/
+_ide/
+RemoteSystemsTempFiles/
+**/Debug/
+**/Release/
+
+# ===== Sistema / editores =====
+.DS_Store
+*.swp
+*~
